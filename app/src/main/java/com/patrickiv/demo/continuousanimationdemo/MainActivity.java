@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+
+        // MainActivity 를 View.OnClickListener로 만들어서 버튼 처리한다.
         switch (v.getId()) {
             case R.id.btn_pause:
                 mAnimationView.pause();
